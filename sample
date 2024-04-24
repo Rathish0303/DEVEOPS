@@ -1,0 +1,86 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gym</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Gym</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#classes">Classes</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="home">
+        <h2>About Us</h2>
+        <p>Welcome to My Gym! We are dedicated to helping you achieve your fitness goals. With state-of-the-art equipment and expert trainers, we provide a supportive environment for all fitness levels.</p>
+    </section>
+    <section id="classes">
+        <h2>Our Classes</h2>
+        <ul>
+            <li>Cardio Kickboxing</li>
+            <li>Yoga</li>
+            <li>Strength Training</li>
+            <li>Zumba</li>
+            <li>Pilates</li>
+        </ul>
+    </section>
+    <section id="trainers">
+        <h2>Meet Our Trainers</h2>
+        <div>
+            <h3>John Doe</h3>
+            <p>John is a certified personal trainer with over 10 years of experience. He specializes in strength training and weight loss.</p>
+        </div>
+        <div>
+            <h3>Jane Smith</h3>
+            <p>Jane is a yoga instructor with a passion for helping her students find balance and inner peace through yoga practice.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to schedule a consultation, please contact us at:</p>
+        <p>Email: info@mygym.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>
